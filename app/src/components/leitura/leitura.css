@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+  }
+  
+  #btn-Info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .SmallImg {
+    width: 50px;
+  }
+  
+  .avatar {
+    display: flex;
+    justify-content: left;
+  }
+  
+  .btn-choice {
+    padding-top: 10px;
+  }
+  
+  .Info-User {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+  }
+  
+  .box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .Img-modal {
+    width: 90%;
+  }
+  
+  .container-Img {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .container-Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #mid {
+    margin-left: -0.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 80%;
+}
+  
+  .mid-Info > div {
+    float: left;
+  }
+  
+  .Info-Up {
+    margin-top: -1%;
+    margin-bottom: -100%;
+    font-size: large;
+  }
+  
+  .Info-Down {
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: -1%;
+    font-size: small;
+  }

@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/FuryCode-bit/IoTOutdoorStation">
+  <a href="https://github.com/FuryCode-bit/IoT-Outdoor-Station">
     <img src="readme/fe.png" alt="Logo" height="80">
   </a>
 
@@ -18,10 +18,10 @@
   <p align="center">
     An IoT solution for real-time weather condition monitoring in remote outdoor environments.
     <br />
-    <a href="https://github.com/FuryCode-bit/IoTOutdoorStation"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/FuryCode-bit/IoT-Outdoor-Station"><strong>Explore the docs »</strong></a>
     <br />
     ·
-    <a href="https://github.com/FuryCode-bit/IoTOutdoorStation/issues">Report Bug</a>
+    <a href="https://github.com/FuryCode-bit/IoT-Outdoor-Station/issues">Report Bug</a>
   </p>
 </div>
 
@@ -87,12 +87,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[stars-shield]: https://img.shields.io/github/stars/FuryCode-bit/IoTOutdoorStation.svg?style=for-the-badge
-[stars-url]: https://github.com/FuryCode-bit/IoTOutdoorStation/stargazers
-[issues-shield]: https://img.shields.io/github/issues/FuryCode-bit/IoTOutdoorStation.svg?style=for-the-badge
-[issues-url]: https://github.com/FuryCode-bit/IoTOutdoorStation/issues
-[license-shield]: https://img.shields.io/github/license/FuryCode-bit/IoTOutdoorStation.svg?style=for-the-badge
-[license-url]: https://github.com/FuryCode-bit/IoTOutdoorStation/blob/master/LICENSE.txt
+[stars-shield]: https://img.shields.io/github/stars/FuryCode-bit/IoT-Outdoor-Station.svg?style=for-the-badge
+[stars-url]: https://github.com/FuryCode-bit/IoT-Outdoor-Station/stargazers
+[issues-shield]: https://img.shields.io/github/issues/FuryCode-bit/IoT-Outdoor-Station.svg?style=for-the-badge
+[issues-url]: https://github.com/FuryCode-bit/IoT-Outdoor-Station/issues
+[license-shield]: https://img.shields.io/github/license/FuryCode-bit/IoT-Outdoor-Station.svg?style=for-the-badge
+[license-url]: https://github.com/FuryCode-bit/IoT-Outdoor-Station/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/bernardeswebdev
 [product-screenshot]: readme/circuit.jpg

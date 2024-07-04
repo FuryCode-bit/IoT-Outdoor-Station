@@ -6,89 +6,77 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/FuryCode-bit/IoTOutdoorStation">
     <img src="readme/fe.png" alt="Logo" height="80">
   </a>
 
   <h3 align="center">IoT Outdoor Station</h3>
 
   <p align="center">
-    Final Bachelor's Project
+    An IoT solution for real-time weather condition monitoring in remote outdoor environments.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/FuryCode-bit/IoTOutdoorStation"><strong>Explore the docs »</strong></a>
     <br />
     ·
-    <a href="https://github.com/FuryCode-bit/readme-template/issues">Report Bug</a>
+    <a href="https://github.com/FuryCode-bit/IoTOutdoorStation/issues">Report Bug</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
+    <li> <a href="#about-the-project">About The Project</a></li>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#system-architecture">System Architecture</a></li>
+        <li><a href="#web-application">Web Application</a></li>
       </ul>
+      <li><a href="#license">License</a></li>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]]()
 
-This project represents my final bachelor's project in Computer Science and Engineering at UBI, focused on developing an IoT solution for collecting temperature, humidity, soil moisture, and rain presence data in remote outdoor environments.
+This project is my final bachelor's project in Computer Science and Engineering at UBI. It focuses on developing an IoT solution to collect temperature, humidity, soil moisture, and rain presence data in remote outdoor environments. 
 
-This project is part of the Rural THINGS research initiative, which aims to provide municipalities with essential tools for monitoring the quality of life of elderly people in rural areas. The specific component of the project covered here involves creating a prototype to be installed at strategic points, capable of collecting real-time weather condition data.
+This work is part of the Rural THINGS research initiative, aimed at providing municipalities with essential tools for monitoring the quality of life of elderly people in rural areas. The project involves creating a prototype that can be installed at strategic points to collect real-time weather data.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![aws][aws]][aws]
+* [![aws][aws]][aws-url]
 * [![React][React.js]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## System Architecture
 
-In this system, the ESP32 microcontroller gathers data from sensors and transmits it to AWS IoT Core using the MQTT protocol. Following this, AWS Lambda processes the data and inserts it into a DynamoDB database.
+The system uses an ESP32 microcontroller to gather data from sensors and transmit it to AWS IoT Core using the MQTT protocol. AWS Lambda processes the data and inserts it into a DynamoDB database.
 
-To analyze and visualize the data, a dashboard was implemented using ReactJS. AWS API Gateway retrieves data from DynamoDB, presenting it in JSON format in response to API requests. This data is then consumed by the dashboard hosted on AWS Amplify, facilitating efficient and accessible data visualization.
+A dashboard implemented with ReactJS is used to analyze and visualize the data. AWS API Gateway retrieves data from DynamoDB, presenting it in JSON format in response to API requests. The dashboard is hosted on AWS Amplify, providing efficient and accessible data visualization.
 
-This architecture ensures seamless integration across the system components, from data collection to visualization, utilizing a robust combination of AWS services.
+This architecture ensures seamless integration from data collection to visualization, utilizing a robust combination of AWS services.
 
+![System Architecture Screenshot][product-screenshot-arch]
 
-[![product-screenshot-arch][product-screenshot-arch]]()
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Web Application
+
+The web application design was carefully crafted to provide a simple and intuitive user experience. It consists of two pages accessible to all users. The main page displays information about the readings from the last 20 days and provides access to the most recent reading data. The second page presents a list with the daily average values of temperature, humidity, heat index, precipitation level, and soil moisture, including the number of readings taken each day.
+
+![webapp1][product-screenshot-webapp1]
+
+![webapp2][product-screenshot-webapp2]
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -98,22 +86,20 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/FuryCode-bit/IoTOutdoorStation/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/FuryCode-bit/IoTOutdoorStation.svg?style=for-the-badge
 [stars-url]: https://github.com/FuryCode-bit/IoTOutdoorStation/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/FuryCode-bit/IoTOutdoorStation.svg?style=for-the-badge
 [issues-url]: https://github.com/FuryCode-bit/IoTOutdoorStation/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/FuryCode-bit/IoTOutdoorStation.svg?style=for-the-badge
 [license-url]: https://github.com/FuryCode-bit/IoTOutdoorStation/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/bernardeswebdev
 [product-screenshot]: readme/circuit.jpg
 [product-screenshot-arch]: readme/architecture.png
+[product-screenshot-webapp1]: readme/app1.png
+[product-screenshot-webapp2]: readme/app2.png
 [aws]: https://img.shields.io/badge/aws-000000?style=for-the-badge&logo=AmazonWebServices&logoColor=white
+[aws-url]: https://aws.amazon.com/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
